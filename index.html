@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Database</title>
+    <script>
+        function checkPassword() {
+            const password = prompt("Enter Password:");
+            if (password !== "مЖりحडБשグكगΩΔשنศคஅחیځየლმکවചحཡზخ뱌ழΙΛசبяتআপ") {
+                document.body.innerHTML = "Access Denied";
+            } else {
+                document.getElementById("secure-content").style.display = "block";
+            }
+        }
+        window.onload = checkPassword;
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #121212;
+            color: white;
+        }
+        #secure-content {
+            display: none;
+            text-align: center;
+        }
+        textarea {
+            width: 80%;
+            height: 150px;
+            margin-top: 10px;
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div id="secure-content">
+        <h1>Welcome to the Secure Database</h1>
+        <p>Confidential Information</p>
+<h1>حسابات بلوكس فروت</h1>
+الحساب رقم 1
+اسم:A7_aboo
+باسورد:Sife123goku
+    </div>
+</body>
+</html>
